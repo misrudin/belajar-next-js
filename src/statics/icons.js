@@ -1,0 +1,1 @@
+export const siteIcon = '/icons/web-icon.png'

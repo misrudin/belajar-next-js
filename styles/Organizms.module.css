@@ -1,0 +1,107 @@
+/*navbar*/
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    height: 65px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .03);
+    padding: 10px;
+}
+
+.navbar .navbar_left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+}
+
+.navbar .navbar_left .logo {
+    width: 30px;
+    object-fit: contain;
+}
+
+.navbar .navbar_left .links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbar .navbar_left .links .link a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.navbar .navbar_left .links .link a.active {
+    color: var(--blue);
+}
+
+.navbar .navbar_left .links .link a:hover {
+    color: var(--blue);
+}
+
+.navbar .navbar_right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.navbar_right .notification_button {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.navbar_right .divider_vertical {
+    height: 30px;
+    width: 1px;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.navbar_right .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+}
+
+/*navbar end*/
+
+/*footer*/
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    color: #aaa;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+}
+
+/*footer end*/
+
+
+/*list user*/
+.list_user {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+/*list user end*/
+
+/*List Posts*/
+.list_posts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/*List Posts End*/

@@ -1,0 +1,78 @@
+.search {
+    background-color: var(--bg-primary);
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    color: #acacac;
+}
+
+.search input {
+    border: none;
+    outline: none;
+    padding: 2px 5px;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: var(--font-secondary);
+    flex: 1;
+}
+
+.search input::placeholder {
+    color: #acacac;
+}
+
+/*User Card*/
+.user_card {
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+    padding: 10px;
+}
+
+.user_card img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.user_card h5 {
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.user_card p {
+    color: #acacac;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+/*User Card End*/
+
+/*post card*/
+
+.post_card {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.post_card h5 {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.post_card p {
+    color: #333;
+    font-weight: 300;
+    line-height: 130%;
+    font-size: 13px;
+}
+
+/*post card end*/
