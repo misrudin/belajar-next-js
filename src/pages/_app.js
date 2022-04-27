@@ -1,9 +1,9 @@
 import '@styles/globals.css'
 import {AppContainer} from "@components/templates";
 
-function MyApp({Component, pageProps}) {
+function MyApp({Component, pageProps, router}) {
     return (
-        <AppContainer>
+        <AppContainer route={router.asPath}>
             <Component {...pageProps} />
         </AppContainer>
     )
